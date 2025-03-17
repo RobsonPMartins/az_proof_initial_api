@@ -1,5 +1,12 @@
 import app from './app';
 
-const port = process.env.PORT || 3333
+const connectToDataBase = require('./config/database')
 
-app.listen(port);
+connectToDataBase()
+
+const PORT = process.env.PORT || 3333;
+// Configurei pelo .env
+
+app.listen(PORT, () => {
+  console.log(`Servidor rodando na porta http://localhost:${PORT} 🚀`)
+});
