@@ -14,7 +14,7 @@ https://github.com/RobsonPMartins/az_proof_initial_api.git
 ```
 ## Entrar na pasta
 ```
-cd order-tracking-api
+cd az_proof_initial_api
 ```
 ## Intale as dependências
 ```
